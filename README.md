@@ -1,4 +1,4 @@
-# TODOS with NextJS static
+# TODOS with NextJS static version
 
 Example Todos app based on [NextJS](https://nextjs.org/).
 
