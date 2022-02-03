@@ -1,6 +1,6 @@
 # TODOS with NextJS static version
 
-Example Todos app based on [NextJS](https://nextjs.org/).
+Example Todos application based on [NextJS](https://nextjs.org/).
 
 In the project directory, you can run:
 
