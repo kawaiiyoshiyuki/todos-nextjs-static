@@ -1,4 +1,4 @@
-staticserver0:
+app:
   build:
     base: [nodejs@14]
     build:
