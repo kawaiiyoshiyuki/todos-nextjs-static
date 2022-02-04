@@ -1,8 +1,7 @@
-# todo upgrade to nodejs@16
-use: [nodejs@14]
-
-run:
-  - npm i
-  - npm run build
-
-deploy: ["build/*"]
+staticserver0:
+  build:
+    base: [nodejs@14]
+    build:
+      - npm i
+      - npm run build
+    deploy: ['build/~']
