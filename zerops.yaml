@@ -4,4 +4,6 @@ app:
     build:
       - npm i
       - npm run build
-    deploy: ['build/~']
+    deploy: [.next]
+  run:
+    start: npm start
