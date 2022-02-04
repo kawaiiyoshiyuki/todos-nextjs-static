@@ -1,4 +1,3 @@
-import React  from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import TodoLayout from '../components/TodoLayout/TodoLayout';
@@ -9,7 +8,7 @@ const initState = [
   { text: 'Push a new commit', complete: false },
 ];
 
-const Home = (props: any) => (
+const IndexPage = (props: any) => (
   <>
     <Header />
     <TodoLayout initTodos={props.data} />
@@ -17,6 +16,7 @@ const Home = (props: any) => (
   </>
 );
 
-Home.getInitialProps = async () => ({ data: initState});
+IndexPage.getInitialProps = async () => ({ data: initState});
 
-export default Home;
+
+export default IndexPage
