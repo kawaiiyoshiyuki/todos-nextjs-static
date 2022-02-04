@@ -4,6 +4,6 @@ app:
     build:
       - npm i
       - npm run build
-    deploy: [.next, node_modules, package.json]
+    deploy: [".next", node_modules, package.json]
   run:
     start: npm start
