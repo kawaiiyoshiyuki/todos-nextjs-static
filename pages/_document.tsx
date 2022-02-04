@@ -2,8 +2,8 @@ import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/do
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
+    const initialProps = await Document.getInitialProps(ctx);
+    return { ...initialProps };
   }
 
   render() {
@@ -30,4 +30,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default MyDocument;
