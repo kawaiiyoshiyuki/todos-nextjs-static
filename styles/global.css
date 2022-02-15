@@ -53,6 +53,7 @@ button.todo {
     padding: 1px;
     margin: 2px;
     border: none;
+    max-width: 20px;
 }
 
 button.todo span {
